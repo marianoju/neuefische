@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "old-faithful-geyser",
+      "/home/user"
+    ]
+  ],
+  "_from": "old-faithful-geyser@latest",
+  "_id": "old-faithful-geyser@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/old-faithful-geyser",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/old-faithful-geyser-0.1.0.tgz_1508250908130_0.76008181553334"
+  },
+  "_npmUser": {
+    "email": "mail@jannisr.de",
+    "name": "derhuerst"
+  },
+  "_npmVersion": "5.4.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "old-faithful-geyser",
+    "raw": "old-faithful-geyser",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/old-faithful-geyser/-/old-faithful-geyser-0.1.0.tgz",
+  "_shasum": "e618f7adcf1d446f4833d3ed8ee7e396f85e6141",
+  "_shrinkwrap": null,
+  "_spec": "old-faithful-geyser",
+  "_where": "/home/user",
+  "author": {
+    "email": "mail@jannisr.de",
+    "name": "Jannis R"
+  },
+  "bugs": {
+    "url": "https://github.com/derhuerst/old-faithful-geyser/issues"
+  },
+  "dependencies": {},
+  "description": "Testing data with waiting times between eruptions of the Old Faithful Geyser.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-5L+hvzO85fWlDGBwsqCi95WXSJzMy9En1YStmc7qyiK5LojEstbpZwd6TeRHqHNqa/BrGmsojOWBoF7z6fDDXQ==",
+    "shasum": "e618f7adcf1d446f4833d3ed8ee7e396f85e6141",
+    "tarball": "https://registry.npmjs.org/old-faithful-geyser/-/old-faithful-geyser-0.1.0.tgz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.json"
+  ],
+  "gitHead": "a2d2f418c3877227d56532a858e5533667e4dd6e",
+  "homepage": "https://github.com/derhuerst/old-faithful-geyser",
+  "keywords": [
+    "data science",
+    "dataset",
+    "faithful",
+    "old faithful geyser"
+  ],
+  "main": "index.json",
+  "maintainers": [
+    {
+      "name": "derhuerst",
+      "email": "mail@jannisr.de"
+    }
+  ],
+  "name": "old-faithful-geyser",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derhuerst/old-faithful-geyser.git"
+  },
+  "version": "0.1.0"
+}
