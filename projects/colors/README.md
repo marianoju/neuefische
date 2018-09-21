@@ -4,14 +4,19 @@
 
 This project is based on Randall Munroe's “Color Name Survey”, see 
 - [Color Name Survey (blogpost)](https://blog.xkcd.com/2010/03/01/color-name-survey/) 
-- [Color Name Survey“ (questionnaire)](https://web.archive.org/web/20100303073002/http://aram.xkcd.com/color/)
+- [Color Name Survey (questionnaire)](https://web.archive.org/web/20100303073002/http://aram.xkcd.com/color/)
 - [Color Survey Results (blogpost)](https://blog.xkcd.com/2010/05/03/color-survey-results/) 
 - [Dataset (SQLite dump, 84 MB .tar.gz file)](http://xkcd.com/color/colorsurvey.tar.gz)
 
-*arbitrary examples for color palettes and color terms*
+### Arbitrary examples for color palettes and color terms 
 - [HTML Color Names](https://www.w3schools.com/colors/colors_names.asp)
 - [216 web safe colors](https://www.colorhexa.com/web-safe-colors)
 - [List of colors by names](https://www.colorhexa.com/color-names)
+
+### See also 
+- [Color term](https://en.wikipedia.org/wiki/Color_term)
+- [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model>
+- [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV)
 
 
 ## Tables 
@@ -31,14 +36,14 @@ This project is based on Randall Munroe's “Color Name Survey”, see
 ## SQLite dumps and sizes 
 
 1. satfaces_sqldump
+	- users = 68,781
 	- answers = 1,894,522
 	- names = 127,761
-	- users = 68,781
 
 2. mainsurvey_sqldump
+	- users = 152,403
 	- answers = 3,408,039
 	- names = 183,429
-	- users = 152,403
 
 
 ## Data wrangling with Bash 
@@ -79,4 +84,17 @@ Checks the file sizes:
 `
 $ ls -hl mainsurvey_sqldump_*
 `
+
+Creates database file from SQLite dump (requires `sqlite3` to be installed): 
+
+`
+sqlite3 mainsurvey.db < mainsurvey_sqldump.txt
+`
+
+## TODO 
+
+- determining monolexemic color words (e.g. “red”, “brown”, or “olive”) 
+- determining compound color words using adjectives (e.g. “light brown”, “sea green”)
+- determining compounded basic color words (e.g. “yellow-green”). 
+
 
