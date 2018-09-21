@@ -14,9 +14,9 @@ This project is based on Randall Munroe's “Color Name Survey”, see
 - [List of colors by names](https://www.colorhexa.com/color-names)
 
 ### See also 
-- [Color term](https://en.wikipedia.org/wiki/Color_term)
-- [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model>
-- [HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV)
+- [WP:EN s.v. Color term](https://en.wikipedia.org/wiki/Color_term)
+- [WP:EN s.v. RGB color model](https://en.wikipedia.org/wiki/RGB_color_model)
+- [WP:EN s.v. HSL and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV)
 
 
 ## Tables 
@@ -96,5 +96,4 @@ sqlite3 mainsurvey.db < mainsurvey_sqldump.txt
 - determining monolexemic color words (e.g. “red”, “brown”, or “olive”) 
 - determining compound color words using adjectives (e.g. “light brown”, “sea green”)
 - determining compounded basic color words (e.g. “yellow-green”). 
-
 
